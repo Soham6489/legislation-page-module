@@ -1,0 +1,5 @@
+name: List legislation
+description: Provides a page to list legislation
+type: module
+core_version_requirement: ^9 || ^10
+package: Custom

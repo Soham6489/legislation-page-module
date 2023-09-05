@@ -1,0 +1,5 @@
+legislation_page.menu:
+  title: "Legislation List"
+  description: "Legislation list"
+  menu_name: main
+  route_name: listpage.list_content

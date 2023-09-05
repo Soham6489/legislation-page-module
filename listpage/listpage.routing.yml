@@ -1,0 +1,15 @@
+listpage.list_content:
+  path: "/primary-legislation"
+  defaults:
+    _controller: Drupal\listpage\Controller\ListPageController::content
+    _title: "Legislation List Page"
+  requirements:
+    _permission: "access content"
+
+listpage.fetch_data:
+  path: "/fetch-legislation-data"
+  defaults:
+    _controller: Drupal\listpage\Controller\ListPageController::legislationData
+  methods: [GET]
+  requirements:
+    _permission: "access content"

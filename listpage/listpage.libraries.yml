@@ -1,0 +1,17 @@
+datatables:
+  css:
+    theme:
+      libraries/datatables/datatables.min.css: { minified: true }
+  js:
+    libraries/datatables/datatables.min.js: { minified: true }
+
+main:
+  css:
+    theme:
+      libraries/main/css/style.css: {}
+  js:
+    libraries/main/js/script.js: {}
+  dependencies:
+    - "core/jquery"
+    - "core/jquery.once"
+    - "listpage/datatables"

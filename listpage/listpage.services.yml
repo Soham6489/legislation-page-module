@@ -1,0 +1,5 @@
+services:
+  listpage.apihandlers:
+    class: \Drupal\listpage\Service\ApiHandlerService
+    arguments:
+      - '@logger.factory'
